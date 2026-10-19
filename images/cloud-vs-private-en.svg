@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="Two options: A Cloud on shared infrastructure, B Private on your own server">
+  <defs>
+    <style>
+      .lbl   { font: 700 15px Inter, 'Segoe UI', sans-serif; fill: #0f172a; }
+      .sub   { font: 400 12.5px Inter, 'Segoe UI', sans-serif; fill: #64748b; }
+      .badge { font: 700 13px Inter, 'Segoe UI', sans-serif; fill: #ffffff; }
+      .tiny  { font: 500 10.5px Inter, 'Segoe UI', sans-serif; fill: #64748b; }
+      .card  { fill: #ffffff; stroke: #dfe7f3; stroke-width: 2; }
+      .flow  { stroke: #2b5cff; stroke-width: 2; fill: none; stroke-linecap: round; }
+      .flowd { stroke: #94a3b8; stroke-width: 2; fill: none; stroke-linecap: round; stroke-dasharray: 5 5; }
+    </style>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2b5cff"/>
+    </marker>
+  </defs>
+
+  <!-- ══ A · CLOUD ══════════════════════════════════════════════ -->
+  <g transform="translate(0,0)">
+    <rect x="16" y="16" width="348" height="308" rx="18" class="card"/>
+
+    <rect x="40" y="40" width="30" height="24" rx="7" fill="#2b5cff"/>
+    <text x="55" y="57" class="badge" text-anchor="middle">A</text>
+    <text x="82" y="52" class="lbl">Cloud</text>
+    <text x="82" y="69" class="sub">Shared infrastructure · live in days</text>
+
+    <!-- cloud shape -->
+    <g transform="translate(112,96)">
+      <path d="M40 52 A26 26 0 0 1 46 1 A32 32 0 0 1 104 14 A24 24 0 0 1 116 52 Z"
+            fill="#ebf1ff" stroke="#2b5cff" stroke-width="2" stroke-linejoin="round"/>
+      <rect x="46" y="24" width="14" height="14" rx="3" fill="#2b5cff" opacity=".85"/>
+      <rect x="66" y="24" width="14" height="14" rx="3" fill="#2b5cff" opacity=".55"/>
+      <rect x="86" y="24" width="14" height="14" rx="3" fill="#2b5cff" opacity=".3"/>
+    </g>
+
+    <!-- separated tenants -->
+    <text x="190" y="180" class="tiny" text-anchor="middle">Customer data kept separate</text>
+    <g>
+      <rect x="112" y="190" width="46" height="34" rx="7" fill="#f4f7fb" stroke="#dfe7f3" stroke-width="1.5"/>
+      <rect x="167" y="190" width="46" height="34" rx="7" fill="#ebf1ff" stroke="#2b5cff" stroke-width="2"/>
+      <rect x="222" y="190" width="46" height="34" rx="7" fill="#f4f7fb" stroke="#dfe7f3" stroke-width="1.5"/>
+      <text x="190" y="212" class="tiny" text-anchor="middle" fill="#2b5cff">You</text>
+    </g>
+
+    <path d="M190 152 L190 184" class="flow" marker-end="url(#ar)"/>
+
+    <!-- users -->
+    <g transform="translate(0,258)">
+      <circle cx="150" cy="10" r="9" fill="#cbd5e1"/>
+      <circle cx="190" cy="10" r="9" fill="#cbd5e1"/>
+      <circle cx="230" cy="10" r="9" fill="#cbd5e1"/>
+      <text x="190" y="38" class="tiny" text-anchor="middle">Your team</text>
+    </g>
+  </g>
+
+  <!-- ══ B · PRIVATE ════════════════════════════════════════════ -->
+  <g transform="translate(380,0)">
+    <rect x="16" y="16" width="348" height="308" rx="18" class="card" stroke="#9ca3af"/>
+
+    <rect x="40" y="40" width="30" height="24" rx="7" fill="#0f172a"/>
+    <text x="55" y="57" class="badge" text-anchor="middle">B</text>
+    <text x="82" y="52" class="lbl">Private</text>
+    <text x="82" y="69" class="sub">Your own server · full control</text>
+
+    <!-- monitor -->
+    <g transform="translate(118,92)">
+      <rect x="0" y="0" width="112" height="76" rx="8" fill="#0f172a"/>
+      <rect x="9" y="9" width="94" height="58" rx="4" fill="#1e293b"/>
+      <rect x="20" y="22" width="30" height="7" rx="3.5" fill="#2b5cff"/>
+      <rect x="20" y="36" width="56" height="6" rx="3" fill="#475569"/>
+      <rect x="20" y="48" width="44" height="6" rx="3" fill="#475569"/>
+      <rect x="44" y="76" width="24" height="10" fill="#0f172a"/>
+      <rect x="28" y="86" width="56" height="6" rx="3" fill="#0f172a"/>
+    </g>
+
+    <!-- shield: no external provider -->
+    <g transform="translate(258,104)">
+      <path d="M22 0 L44 9 V27 C44 41 34 51 22 55 C10 51 0 41 0 27 V9 Z"
+            fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+      <path d="M12 27 l7 7 l14 -15" fill="none" stroke="#16a34a" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <text x="190" y="203" class="tiny" text-anchor="middle">Language model runs locally</text>
+    <text x="190" y="220" class="tiny" text-anchor="middle" fill="#16a34a">no external AI provider</text>
+
+    <!-- blocked outward flow -->
+    <path d="M300 190 L336 190" class="flowd"/>
+    <g transform="translate(330,178)">
+      <circle cx="12" cy="12" r="11" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+      <path d="M6 6 L18 18 M18 6 L6 18" stroke="#dc2626" stroke-width="2.2" stroke-linecap="round"/>
+    </g>
+
+    <path d="M190 176 L190 232" class="flow" marker-end="url(#ar)"/>
+
+    <g transform="translate(0,258)">
+      <circle cx="150" cy="10" r="9" fill="#cbd5e1"/>
+      <circle cx="190" cy="10" r="9" fill="#cbd5e1"/>
+      <circle cx="230" cy="10" r="9" fill="#cbd5e1"/>
+      <text x="190" y="38" class="tiny" text-anchor="middle">Your team</text>
+    </g>
+  </g>
+</svg>
