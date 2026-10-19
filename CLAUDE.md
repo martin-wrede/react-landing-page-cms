@@ -18,12 +18,13 @@ This is a React landing page template built with Vite, designed for GitHub Pages
 ## Architecture
 
 ### Data-Driven Content System
-The application uses JSON files in `src/data/` to manage all content:
-- `content-en.json` - English content (primary)
+The project works like a small CMS: each landing page is a folder `src/data/projectN/` with the same JSON structure:
 - `content-de.json` - German content
-- `content.json` - Additional content data
+- `content-en.json` - English content
 
-Content is imported in `App.jsx` and passed down as props to components. This allows for easy content updates without touching component code.
+The page is selected with the query parameter `?project=N` (default and fallback: `project0`). `Context.jsx` discovers project folders via `import.meta.glob`, so adding a folder needs no code change. The language mode follows the files in the folder: only `content-de.json` → DE, only `content-en.json` → EN, both → BI (bilingual; only then the language switch is shown in the header).
+
+Content is loaded in `Context.jsx` and passed down as props to components. This allows for easy content updates without touching component code.
 
 ### Component Structure
 All components are functional React components in `src/components/`:

@@ -1,43 +1,58 @@
 import React, { useEffect, useState } from 'react';
 
-import contentDe from './data/content-de.json';
-import contentEn from './data/content-en.json';
-
 const Context = React.createContext();
 
-const LANGUAGE_CONFIG = 'both'; // Options: 'de', 'en', 'both'
+// Every folder src/data/projectN/ is one landing page, selected with ?project=N.
+const contentFiles = import.meta.glob('./data/project*/content-*.json', { eager: true, import: 'default' });
+
+const DEFAULT_PROJECT = '0';
+
+const getContent = (project, lang) => contentFiles[`./data/project${project}/content-${lang}.json`];
+
+function getProject() {
+  const requested = new URLSearchParams(window.location.search).get('project') ?? DEFAULT_PROJECT;
+  if (getContent(requested, 'de') || getContent(requested, 'en')) {
+    return requested;
+  }
+  console.warn(`Project "${requested}" not found in src/data/, showing project${DEFAULT_PROJECT}.`);
+  return DEFAULT_PROJECT;
+}
+
+const project = getProject();
+
+// The language mode follows the files in the project folder:
+// only content-de.json -> DE, only content-en.json -> EN, both -> BI (bilingual, with switch).
+const content = {
+  de: getContent(project, 'de'),
+  en: getContent(project, 'en'),
+};
+const availableLanguages = Object.keys(content).filter((lang) => content[lang]);
+const languageMode = availableLanguages.length > 1 ? 'BI' : availableLanguages[0].toUpperCase();
 
 function ContextProvider({ children }) {
   const [language, setLanguage] = useState(() => {
-    if (LANGUAGE_CONFIG === 'de') return 'de';
-    if (LANGUAGE_CONFIG === 'en') return 'en';
+    if (languageMode !== 'BI') return availableLanguages[0];
 
     const saved = localStorage.getItem("lang");
-    if (!saved) {
-      localStorage.setItem("lang", "de");
-      return "de";
-    }
-    return saved;
+    return availableLanguages.includes(saved) ? saved : 'de';
   });
 
-  const [data, setData] = useState(language === 'de' ? contentDe : contentEn);
-
-
-  // Function to change language (can be used in a button etc.)
+  // Function to change language (used by the switch buttons in the header)
   const changeLanguage = (lang) => {
-    if (LANGUAGE_CONFIG !== 'both') return;
+    if (!availableLanguages.includes(lang)) return;
     setLanguage(lang);
     localStorage.setItem("lang", lang);
   };
 
   useEffect(() => {
-    setData(language === 'de' ? contentDe : contentEn);
+    document.documentElement.lang = language;
   }, [language]);
 
-  const showSwitch = LANGUAGE_CONFIG === 'both';
+  const data = content[language];
+  const showSwitch = languageMode === 'BI';
 
   return (
-    <Context.Provider value={{ data, language, changeLanguage, showSwitch }}>
+    <Context.Provider value={{ data, language, changeLanguage, showSwitch, project, languageMode }}>
       {children}
     </Context.Provider>
   );
