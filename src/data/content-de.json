@@ -18,6 +18,10 @@
       "link": "#faq"
     },
     "imageUrl": "images/hero-hr-team.png",
+    "videoUrl": "images/faq-assistant-promo-v3.mp4",
+    "videoAlt": "Promo-Video: So funktioniert der FAQ-Assistent",
+    "screenshotUrl": "images/headergraphic-overview.png",
+    "screenshotAlt": "Graph-Ansicht des FAQ-Assistenten: Dokumente als Knoten, verbunden nach inhaltlicher Ähnlichkeit",
     "aiLabel": "KI-generiertes Bild"
   },
   "credentials": {

@@ -165,11 +165,13 @@ li {
   background-position: center;
   background-repeat: no-repeat;
   color: #fff;
+  padding: 0;
 }
 
 .hero-overlay {
-  position: absolute;
-  inset: 0;
+  flex: 1;
+  align-self: stretch;
+  padding: 88px 0;
   background: linear-gradient(90deg, rgba(15, 23, 42, 0.82) 0%, rgba(15, 23, 42, 0.68) 40%, rgba(15, 23, 42, 0.42) 100%);
   display: flex;
   align-items: center;
@@ -193,6 +195,17 @@ li {
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.88);
   margin-bottom: 34px;
+}
+
+.hero-media {
+  display: block;
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  margin-bottom: 34px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.35);
 }
 
 .hero-cta-buttons {
@@ -522,6 +535,10 @@ li {
 
 @media (max-width: 640px) {
   section {
+    padding: 72px 0;
+  }
+
+  .hero-overlay {
     padding: 72px 0;
   }
 
