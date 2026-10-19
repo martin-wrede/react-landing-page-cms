@@ -1,0 +1,175 @@
+{
+  "header": {
+    "logoUrl": "images/logo.svg",
+    "cta": {
+      "text": "Jetzt bestellen",
+      "link": "#cta"
+    }
+  },
+  "hero": {
+    "headline": "Ihre Mitarbeitenden fragen. Ihr Wissen antwortet.",
+    "subheadline": "Der FAQ-Assistent beantwortet wiederkehrende Fragen aus HR und People Ops automatisch – auf Basis Ihrer eigenen Dokumente. Jede Antwort mit Quelle. Wahlweise in der Cloud oder vollständig auf Ihrem eigenen Server.",
+    "cta1": {
+      "text": "Jetzt bestellen",
+      "link": "#cta"
+    },
+    "cta2": {
+      "text": "Live-Demo ansehen",
+      "link": "#faq"
+    },
+    "imageUrl": "images/hero-hr-team.png",
+    "aiLabel": "KI-generiertes Bild"
+  },
+  "credentials": {
+    "title": "Was der Assistent für Sie leistet",
+    "logos": [
+      {
+        "name": "Weniger Routineanfragen",
+        "url": "images/benefit-deflect.svg",
+        "description": "Mitarbeitende finden Antworten selbst, rund um die Uhr – ohne dass HR in jeder Anfrage steckt."
+      },
+      {
+        "name": "Antworten aus Ihren Quellen",
+        "url": "images/benefit-sources.svg",
+        "description": "Keine erfundenen Auskünfte. Jede Antwort stammt aus Ihren Richtlinien und Handbüchern und nennt das Dokument dazu."
+      },
+      {
+        "name": "Sie behalten die Kontrolle",
+        "url": "images/benefit-control.svg",
+        "description": "Sie sehen, was gefragt wird, und erkennen genau, wo Ihre Dokumentation Lücken hat."
+      }
+    ]
+  },
+  "features": {
+    "title": "Was drin steckt.",
+    "beforeAfterLabel": "So arbeitet der Assistent",
+    "items": [
+      {
+        "title": "Exakte Treffer und semantische Suche",
+        "description": "Zwei Suchverfahren in einer Abfrage: Wortgenaue Treffer stehen oben und sind als solche markiert. Darunter findet der Assistent Umschreibungen und Synonyme – „Frei nehmen“ führt zum Urlaubsantrag, auch wenn das Wort nirgends steht.",
+        "imageUrl": "images/klassisch-vector-md.png"
+      },
+      {
+        "title": "Eigene Dokumente hochladen",
+        "description": "Ganze Ordner auf einmal per Drag-and-drop. TXT und Markdown werden sofort indexiert, PDF und DOCX ebenfalls unterstützt. Neue Dokumente sind in Sekunden durchsuchbar.",
+        "imageUrl": "images/upload.png"
+      },
+      {
+        "title": "Visuelle Wissenslandkarte",
+        "description": "Sie sehen auf einen Blick, welches Wissen im System liegt und wie die Dokumente inhaltlich zusammenhängen. Doppelte oder verwaiste Inhalte fallen sofort auf.",
+        "imageUrl": "images/overview.png"
+      },
+      {
+        "title": "Jede Antwort mit Quelle",
+        "description": "Der Assistent zeigt zu jeder Antwort die Textstellen, auf denen sie beruht – nachvollziehbar bis ins Ursprungsdokument.",
+        "imageUrl": "images/ergebnis-md.png"
+      }
+    ]
+  },
+  "users": {
+    "title": "Gebaut für HR- und People-Ops-Teams im Mittelstand.",
+    "items": [
+      {
+        "title": "Ideal für Sie, wenn:",
+        "description": "Ihr Unternehmen hat 20–500 Mitarbeitende und HR besteht aus einer Handvoll Menschen. Ihr Wissen liegt verstreut in PDFs und Intranet-Seiten. Dieselben Fragen kommen täglich per E-Mail, Teams oder Zuruf.",
+        "imageUrl": "images/company-illustration-300.jpg",
+        "aiLabel": "KI-generiertes Bild"
+      },
+      {
+        "title": "Schnelle Einführung",
+        "description": "Setup durch uns, produktiv in wenigen Tagen. Kein sechsmonatiges IT-Projekt – sondern ein Tool, das nächste Woche läuft.",
+        "imageUrl": "images/user32.jpg",
+        "aiLabel": "KI-generiertes Bild"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Einwand-Behandlung",
+    "items": [
+      {
+        "question": "Wo liegen unsere Daten?",
+        "answer": "Das entscheiden Sie – es gibt zwei Varianten.\nA · Cloud: Ihr Assistent läuft auf geteilter Infrastruktur. Ihre Dokumente bleiben strikt von anderen Kunden getrennt.\nB · Privat: Sie erhalten eine eigene Instanz. Dokumente und Sprachmodell laufen auf Ihrem Server, ohne externen KI-Anbieter.\nIn beiden Fällen gilt: kein Training fremder Modelle.",
+        "imageUrl": "images/cloud-vs-private.svg"
+      },
+      {
+        "question": "Halluziniert das System?",
+        "answer": "Der Assistent antwortet ausschließlich auf Basis Ihrer Dokumente und zeigt zu jeder Aussage die Quelle. Findet er nichts Passendes, sagt er das – statt zu raten."
+      },
+      {
+        "question": "Wie aufwendig ist die Einführung?",
+        "answer": "Sie liefern die Dokumente, wir übernehmen die Einrichtung. Typischer Zeitrahmen: unter zwei Wochen bis zum produktiven Einsatz."
+      },
+      {
+        "question": "Was, wenn es nicht passt?",
+        "answer": "Die Mindestlaufzeit beträgt drei Monate – erfahrungsgemäß die Zeit, die ein Assistent braucht, um im Alltag anzukommen und messbare Entlastung zu zeigen. Danach monatlich kündbar. Kein Jahresvertrag, kein Kleingedrucktes."
+      },
+      {
+        "question": "Können wir später wechseln oder erweitern?",
+        "answer": "Ja. Neue Dokumente, Bereiche und Nutzer lassen sich jederzeit ergänzen. Auch der Wechsel von Cloud auf eine eigene Instanz ist möglich, ohne neu aufzusetzen."
+      }
+    ]
+  },
+  "ctaSection": {
+    "headline": "Zwei Wege zum eigenen Assistenten.",
+    "subtext": "Transparent kalkuliert. Drei Monate Mindestlaufzeit, danach monatlich kündbar. Keine versteckten Kosten.",
+    "pricingItems": [
+      {
+        "title": "A · Cloud",
+        "features": [
+          "Für Teams, die schnell starten wollen",
+          "Einrichtung einmalig: 790 €",
+          "Monatlich: 149 € / Monat",
+          "Antworten in wenigen Sekunden",
+          "Bis zu 100 Dokumente",
+          "Unbegrenzte Nutzer:innen",
+          "Getrennte Datenhaltung pro Kunde",
+          "Bei Jahreszahlung: 2 Monate geschenkt"
+        ],
+        "price": "149 €",
+        "priceInformation": "pro Monat · zzgl. MwSt.",
+        "buttonText": "Cloud – Demo buchen",
+        "buttonLink": "https://calendly.com/framez-mw/60min",
+        "secondaryButtonText": "Direkt buchen – ohne Gespräch →",
+        "secondaryButtonLink": "https://buy.stripe.com/fZu9AT8Zog1sdit9o94ow00"
+      },
+      {
+        "title": "B · Privat",
+        "features": [
+          "Für Unternehmen mit streng n Datenanforderungen",
+          "Einrichtung einmalig: 1.900 €",
+          "Monatlich: 349 € / Monat",
+          "Eigene, isolierte Instanz",
+          "Sprachmodell läuft auf Ihrem Server – kein externer KI-Anbieter",
+          "Bis zu 500 Dokumente",
+          "Unbegrenzte Nutzer:innen",
+          "Auf Wunsch auf Ihrer eigenen Hardware",
+          "Nutzungsauswertung inklusive",
+          "Bei Jahreszahlung: 2 Monate geschenkt"
+        ],
+        "price": "349 €",
+        "priceInformation": "pro Monat · zzgl. MwSt.",
+        "buttonText": "Privat – Demo buchen",
+        "buttonLink": "https://calendly.com/framez-mw/60min",
+        "secondaryButtonText": "Direkt buchen – ohne Gespräch →",
+        "secondaryButtonLink": "https://buy.stripe.com/eVq28rfnM8z07Y9asd4ow01"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 FAQ-Assistent. Alle Rechte vorbehalten.",
+    "links": [
+      {
+        "text": "Datenschutz",
+        "link": "privacy.html"
+      },
+      {
+        "text": "Nutzungsbedingungen",
+        "link": "terms.html"
+      },
+      {
+        "text": "Kontakt",
+        "link": "contact.html"
+      }
+    ]
+  }
+}
