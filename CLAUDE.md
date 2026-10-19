@@ -22,7 +22,7 @@ The project works like a small CMS: each landing page is a folder `src/data/proj
 - `content-de.json` - German content
 - `content-en.json` - English content
 
-The page is selected with the query parameter `?project=N` (default and fallback: `project0`). `Context.jsx` discovers project folders via `import.meta.glob`, so adding a folder needs no code change. The language mode follows the files in the folder: only `content-de.json` → DE, only `content-en.json` → EN, both → BI (bilingual; only then the language switch is shown in the header).
+The page is selected with the query parameter `?project=N` (default and fallback: `project0`). `Context.jsx` discovers project folders via `import.meta.glob`, so adding a folder needs no code change. The language mode follows the files in the folder: only `content-de.json` → DE, only `content-en.json` → EN, both → BI (bilingual; only then the language switch is shown in the header). In BI mode, `?lang=de` / `?lang=en` (case-insensitive) sets the starting language; otherwise the visitor's last choice or German is used.
 
 Content is loaded in `Context.jsx` and passed down as props to components. This allows for easy content updates without touching component code.
 

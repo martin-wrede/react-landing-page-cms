@@ -29,9 +29,16 @@ const content = {
 const availableLanguages = Object.keys(content).filter((lang) => content[lang]);
 const languageMode = availableLanguages.length > 1 ? 'BI' : availableLanguages[0].toUpperCase();
 
+// Optional ?lang=de / ?lang=en (case-insensitive), only used if the project has that language.
+const urlLanguage = new URLSearchParams(window.location.search).get('lang')?.toLowerCase();
+if (urlLanguage && !availableLanguages.includes(urlLanguage)) {
+  console.warn(`Language "${urlLanguage}" not available in project${project}, using ${availableLanguages.join('/')}.`);
+}
+
 function ContextProvider({ children }) {
   const [language, setLanguage] = useState(() => {
     if (languageMode !== 'BI') return availableLanguages[0];
+    if (availableLanguages.includes(urlLanguage)) return urlLanguage;
 
     const saved = localStorage.getItem("lang");
     return availableLanguages.includes(saved) ? saved : 'de';
@@ -42,6 +49,13 @@ function ContextProvider({ children }) {
     if (!availableLanguages.includes(lang)) return;
     setLanguage(lang);
     localStorage.setItem("lang", lang);
+
+    // Keep ?lang in the address bar in sync, so a reload shows the chosen language
+    const url = new URL(window.location.href);
+    if (url.searchParams.has('lang')) {
+      url.searchParams.set('lang', lang);
+      window.history.replaceState(null, '', url);
+    }
   };
 
   useEffect(() => {
