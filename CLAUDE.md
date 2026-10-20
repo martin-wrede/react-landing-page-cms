@@ -11,6 +11,7 @@ This is a React landing page template built with Vite, designed for GitHub Pages
 - `npm run dev` - Start development server with hot reload
 - `npm run build` - Build for production
 - `npm run lint` - Run ESLint checks
+- `npm run check-content` - Check all `src/data/projectN/` folders (valid JSON, required fields, file paths exist in `public/`); also runs before `npm run deploy` and blocks it on errors
 - `npm run preview` - Preview production build locally
 - `npm run deploy` - Build and deploy to GitHub Pages
 - `npm test` - Run tests (uses react-scripts)
