@@ -1,0 +1,164 @@
+{
+  "header": {
+    "logoUrl": "images/logo.svg",
+    "cta": {
+      "text": "Starter Paket wählen",
+      "link": "#cta"
+    }
+  },
+  "hero": {
+    "headline": "Steigere deine Bestellungen mit AI-optimierten Food-Fotos.",
+    "subheadline": "Professionell nachbearbeitete Gerichte, die sofort appetitlich wirken – ideal für Lieferdienste, Social Media und Speisekarten.",
+    "cta1": {
+      "text": "Kostenlos testen",
+      "link": "#cta"
+    },
+    "cta2": {
+      "text": "Beispiele ansehen",
+      "link": "https://www.instagram.com/martin_wrede/"
+    },
+    "imageUrl": "images/hero.jpg"
+  },
+  "credentials": {
+    "title": "Was unsere Kunden sagen",
+    "logos": [
+      {
+        "name": "Mario L.",
+        "url": "images/user-profile-1.png",
+        "quote": "Unsere Online-Bestellungen sind im ersten Monat um 27% gestiegen. Die neuen Fotos sehen deutlich professioneller aus."
+      },
+      {
+        "name": "Sarah K.",
+        "url": "images/user-profile-2.png",
+        "quote": "Wir haben die Bilder für UberEats verwendet und sofort mehr Klicks bekommen. Schneller Service und top Qualität."
+      },
+      {
+        "name": "David R.",
+        "url": "images/user-profile-3.png",
+        "quote": "Für den Preis unschlagbar. Die AI-Optimierung spart uns jedes Mal einen Fotografen."
+      }
+    ]
+  },
+  "features": {
+    "title": "Was wir für Restaurants tun",
+    "beforeAfterLabel": "Vorher / Nachher",
+    "items": [
+      {
+        "title": "AI Nachbearbeitung",
+        "description": "Wir optimieren Kontrast, Farben, Präsentation und Schärfe – so wirkt jedes Gericht professionell fotografiert.",
+        "imageUrl": "images/feature1.jpg"
+      },
+      {
+        "title": "Background Cleanup",
+        "description": "Unruhige Hintergründe, Schatten oder störende Elemente werden bei Bedarf entfernt. Wichtige Elemente werden ergänzt",
+        "imageUrl": "images/feature2.jpg"
+      },
+      {
+        "title": "Einheitlicher Look",
+        "description": "Ein einheitlicher Stil macht dein Restaurant sofort professioneller und vertrauenswürdiger.",
+        "imageUrl": "images/feature4.jpg"
+      },
+      {
+        "title": "Social-Media Ready",
+        "description": "Perfekt zugeschnitten für Instagram, Facebook & Lieferdienste wie UberEats, DoorDash und Wolt.",
+        "imageUrl": "images/feature5.jpg"
+      }
+    ]
+  },
+  "users": {
+    "title": "Für wen ist das Produkt?",
+    "items": [
+      {
+        "title": "Für Restaurants",
+        "description": "Mehr Bestellungen, bessere Präsentation und ein professionelles Auftreten – perfekt für dein Menü.",
+        "imageUrl": "images/user3.jpg"
+      },
+      {
+        "title": "Für Catering & Lieferdienste",
+        "description": "Optimierte Food-Fotos erhöhen die Klickrate auf deinen Gerichten – und damit deine Umsätze.",
+        "imageUrl": "images/user2.jpg"
+      },
+      {
+        "title": "Für Cafés & Bistros",
+        "description": "Moderne, helle Fotos für Social Media und digitale Speisekarten.",
+        "imageUrl": "images/user1.jpg"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "question": "Wie funktioniert das?",
+        "answer": "Du ladest die Fotos auf unseren Server hoch. Wir optimieren sie mit modernster AI und schicken dir die fertigen Bilder zurück.",
+        "imageUrl": "images/info-graphic-de.png"
+      },
+      {
+        "question": "Brauche ich professionelle Kamera-Fotos?",
+        "answer": "Nein! Selbst Smartphone-Fotos können wir deutlich aufwerten."
+      },
+      {
+        "question": "Wie lange dauert die Bearbeitung?",
+        "answer": "In der Regel 24–48 Stunden, je nach Paketgröße."
+      },
+      {
+        "question": "Kann ich vor dem Kauf Beispiele sehen?",
+        "answer": "Ja. Du bekommst als Neukunde 2 kostenlose Testoptimierungen, bevor du dich entscheidest."
+      },
+      {
+        "question": "Welche Dateiformate akzeptiert ihr?",
+        "answer": "JPG, PNG"
+      },
+      {
+        "question": "Kann ich später weitere Bilder buchen?",
+        "answer": "Ja – du kannst jederzeit zusätzliche Pakete bestellen."
+      }
+    ]
+  },
+  "ctaSection": {
+    "headline": "Weihnachtsaktion bis 22. Dezember:",
+    "pricingItems": [
+      {
+        "title": "⭐ Starter Paket",
+        "features": [
+          "→ 2 kostenlose Testbilder bei Neukunden (no credit card required)",
+          "5 optimierte Fotos",
+          ""
+        ],
+        "price": "142,80 €",
+        "priceInformation": "(inkl. 19% MwSt.)",
+        "buttonText": "Paket wählen",
+        "buttonLink": "https://upload-images-form-comment.pages.dev/?package=teststarter"
+      },
+      {
+        "title": "⭐ Standard Paket",
+        "features": [
+          "→ 2 kostenlose Testbilder bei Neukunden (no credit card required)",
+          "10 optimierte Fotos",
+          ""
+        ],
+        "price": "238 €",
+        "priceInformation": "(inkl. 19% MwSt.)",
+        "buttonText": "Paket wählen",
+        "buttonLink": "https://upload-images-form-comment.pages.dev/?package=teststandard"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2024 FoodPhotoAI. Alle Rechte vorbehalten.",
+    "links": [
+      {
+        "text": "Datenschutzrichtlinie",
+        "link": "#"
+      },
+      {
+        "text": "Nutzungsbedingungen",
+        "link": "#"
+      },
+      {
+        "text": "Support kontaktieren",
+        "link": "#"
+      }
+    ]
+  }
+}
