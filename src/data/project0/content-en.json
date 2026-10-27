@@ -152,10 +152,10 @@
         ],
         "price": "$349",
         "priceInformation": "per month",
-        "buttonText": "Private — book a demo", 
+        "buttonText": "Private — book a demo",
         "buttonLink": "https://calendly.com/framez-mw/60min",
-        "secondaryButtonText": "Skip the call — buy directly →",
-        "secondaryButtonLink": "https://buy.stripe.com/00w8wPejI8z06U5gQB4ow03"
+        "secondaryButtonText": "Book a scoping call →",
+        "secondaryButtonLink": "https://calendly.com/framez-mw/60min"
       }
     ]
   },

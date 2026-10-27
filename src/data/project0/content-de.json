@@ -139,7 +139,7 @@
       {
         "title": "B · Privat",
         "features": [
-          "Für Unternehmen mit streng n Datenanforderungen",
+          "Für Unternehmen mit strengen Datenanforderungen",
           "Einrichtung einmalig: 1.900 €",
           "Monatlich: 349 € / Monat",
           "Eigene, isolierte Instanz",
@@ -154,8 +154,8 @@
         "priceInformation": "pro Monat · zzgl. MwSt.",
         "buttonText": "Privat – Demo buchen",
         "buttonLink": "https://calendly.com/framez-mw/60min",
-        "secondaryButtonText": "Direkt buchen – ohne Gespräch →",
-        "secondaryButtonLink": "https://buy.stripe.com/eVq28rfnM8z07Y9asd4ow01"
+        "secondaryButtonText": "Vorab-Gespräch vereinbaren →",
+        "secondaryButtonLink": "https://calendly.com/framez-mw/60min"
       }
     ]
   },

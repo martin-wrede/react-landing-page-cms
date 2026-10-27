@@ -1,0 +1,179 @@
+{
+  "header": {
+    "logoUrl": "images/logo.svg",
+    "cta": {
+      "text": "Get started",
+      "link": "#cta"
+    }
+  },
+  "hero": {
+    "headline": "Your people ask. Your documents answer.",
+    "subheadline": "The FAQ Assistant answers repetitive HR and People Ops questions automatically, using your own documents. Every answer cites its source. Run it in the cloud, or entirely on your own server.",
+    "cta1": {
+      "text": "Get started",
+      "link": "#cta"
+    },
+    "cta2": {
+      "text": "See it in action",
+      "link": "#faq"
+    },
+    "imageUrl": "images/hero-hr-team.png",
+    "videoUrl": "images/faq-assistant-promo-v3.mp4",
+    "videoAlt": "Promo video: how the FAQ Assistant works",
+    "screenshotUrl": "images/headergraphic-overview.png",
+    "screenshotAlt": "Graph view of the FAQ Assistant: documents shown as nodes, connected by how similar their content is",
+    "aiLabel": "AI-generated image"
+  },
+  "credentials": {
+    "title": "What the assistant does for you",
+    "logos": [
+      {
+        "name": "Fewer repeat questions",
+        "url": "images/benefit-deflect.svg",
+        "description": "People find answers themselves, around the clock, without HR sitting in the middle of every request."
+      },
+      {
+        "name": "Answers from your sources",
+        "url": "images/benefit-sources.svg",
+        "description": "No invented answers. Every response comes from your policies and handbooks, and names the document it came from."
+      },
+      {
+        "name": "You stay in control",
+        "url": "images/benefit-control.svg",
+        "description": "See what people actually ask, and spot exactly where your documentation has gaps."
+      }
+    ]
+  },
+  "features": {
+    "title": "What's inside.",
+    "beforeAfterLabel": "How the assistant works",
+    "items": [
+      {
+        "title": "Exact matches and semantic search",
+        "description": "Two search methods in one query. Word-for-word matches rank first and are marked as exact. Below them, the assistant understands paraphrases and synonyms, so \"time off\" finds your vacation policy even when those words never appear.",
+        "imageUrl": "images/klassisch-vector-md.png"
+      },
+      {
+        "title": "Upload your own documents",
+        "description": "Drag in whole folders at once. TXT and Markdown are indexed instantly, PDF and DOCX are supported too. New documents become searchable in seconds.",
+        "imageUrl": "images/upload.png"
+      },
+      {
+        "title": "Visual knowledge map",
+        "description": "See at a glance what knowledge lives in the system and how documents relate to each other. Duplicates and orphaned content stand out immediately.",
+        "imageUrl": "images/overview.png"
+      },
+      {
+        "title": "Every answer cites its source",
+        "description": "Each answer shows the passages it was built from, traceable back to the original document.",
+        "imageUrl": "images/ergebnis-md.png"
+      }
+    ]
+  },
+  "users": {
+    "title": "Built for HR and People Ops teams at growing companies.",
+    "items": [
+      {
+        "title": "A good fit if:",
+        "description": "You have 20–500 employees and HR is a handful of people. Your knowledge is scattered across PDFs and intranet pages. The same questions arrive every day by email, Slack, or someone stopping by your desk.",
+        "imageUrl": "images/company-illustration-300.jpg",
+        "aiLabel": "AI-generated image"
+      },
+      {
+        "title": "Live in days",
+        "description": "We handle the setup. Not a six-month IT project — a tool that runs next week.",
+        "imageUrl": "images/user32.jpg",
+        "aiLabel": "AI-generated image"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions you're probably asking",
+    "items": [
+      {
+        "question": "Where does our data live?",
+        "answer": "That's your call — there are two options.\nA · Cloud: Your assistant runs on Cloudflare's secure infrastructure and uses leading AI models for fast, accurate answers. Your documents are kept separate from every other customer's data.\nB · Private: You get your own private server, used only by your company. Your documents and the AI model both run there. Nothing is sent to an outside AI provider.\nEither way, your data is never used to train AI models.",
+        "imageUrl": "images/cloud-vs-private-en.svg"
+      },
+      {
+        "question": "Does it make things up?",
+        "answer": "The assistant answers only from your documents and shows the source behind every statement. When it can't find a match, it says so instead of guessing."
+      },
+      {
+        "question": "How much work is the setup?",
+        "answer": "You provide the documents, we handle the setup. Typical timeline: under two weeks to production use."
+      },
+      {
+        "question": "What if it isn't a fit?",
+        "answer": "There's a three-month minimum term — in our experience that's how long an assistant needs to settle into daily use and show measurable relief. After that, cancel any month. No annual contract, no fine print."
+      },
+      {
+        "question": "Can we switch or expand later?",
+        "answer": "Yes. Add documents, areas and users whenever you like. Moving from Cloud to your own dedicated instance is possible too, without starting over."
+      }
+    ]
+  },
+  "ctaSection": {
+    "headline": "Two ways to run your assistant.",
+    "subtext": "Transparent pricing, three-month minimum, then cancel any month. No hidden costs.",
+    "pricingItems": [
+      {
+        "title": "A · Cloud",
+        "features": [
+          "For teams who want to start fast",
+          "One-time setup: $790",
+          "Monthly: $149 / month",
+          "Answers in seconds",
+          "Up to 100 documents",
+          "Unlimited users",
+          "Hosted on Cloudflare, data separated per customer",
+          "Pay annually and get 2 months free"
+        ],
+        "price": "$149",
+        "priceInformation": "per month",
+        "buttonText": "Cloud — book a demo",
+        "buttonLink": "https://calendly.com/framez-mw/60min",
+        "secondaryButtonText": "Skip the call — buy directly →",
+        "secondaryButtonLink": "https://buy.stripe.com/4gMcN5ejIbLcdit0RD4ow02"
+      },
+      {
+        "title": "B · Private",
+        "features": [
+          "For companies with strict data requirements",
+          "One-time setup: $1,900",
+          "Monthly: $349 / month",
+          "Your own private server, used only by your company",
+          "Language model runs on your server — no external AI provider",
+          "Up to 500 documents",
+          "Unlimited users",
+          "Can run on your own hardware",
+          "Usage analytics included",
+          "Pay annually and get 2 months free"
+        ],
+        "price": "$349",
+        "priceInformation": "per month",
+        "buttonText": "Private — book a demo", 
+        "buttonLink": "https://calendly.com/framez-mw/60min",
+        "secondaryButtonText": "Skip the call — buy directly →",
+        "secondaryButtonLink": "https://buy.stripe.com/00w8wPejI8z06U5gQB4ow03"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 FAQ Assistant. All rights reserved.",
+    "links": [
+      {
+        "text": "Privacy Policy",
+        "link": "privacy.html"
+      },
+      {
+        "text": "Terms of Service",
+        "link": "terms.html"
+      },
+      {
+        "text": "Contact",
+        "link": "contact.html"
+      }
+    ]
+  }
+}

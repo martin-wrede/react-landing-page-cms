@@ -8,6 +8,7 @@ const Header = ({ data }) => {
     <header className="header">
       <div className="container header-container">
         <img src={import.meta.env.BASE_URL + data.logoUrl} alt="Logo" width="200" className="logo" />
+      {/*
         <nav className="nav">
           {showSwitch && (
             <div className="language-switcher">
@@ -29,6 +30,7 @@ const Header = ({ data }) => {
           )}
 
         </nav>
+        */}
       </div>
     </header>
   );
